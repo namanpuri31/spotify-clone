@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - enjoy your favourite songs here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><img class="logo" src="spotify1.png" alt="Spotify"></li>
+            <li class="spot">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <hr>
+    <div class="container">
+        <div class="songlist">
+            <h1 class="h1">Best of Naman playlist</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <span class="songname"> </span>
+                    <span class="songlistplay"><span class="timestamp">05:30</span><i class="fa-solid songplayitem fa-1x fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <span class="songname"> </span>
+                    <span class="songlistplay"><span class="timestamp">05:30</span><i class="fa-solid songplayitem fa-1x fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <span class="songname"> </span>
+                    <span class="songlistplay"><span class="timestamp">05:30</span><i class="fa-solid songplayitem fa-1x fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <span class="songname"> </span>
+                    <span class="songlistplay"><span class="timestamp">05:30</span><i class="fa-solid songplayitem fa-1x fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <span class="songname"> </span>
+                    <span class="songlistplay"><span class="timestamp">05:30</span><i class="fa-solid songplayitem fa-1x fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <span class="songname"> </span>
+                    <span class="songlistplay"><span class="timestamp">05:30</span><i class="fa-solid songplayitem fa-1x fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <span class="songname"> </span>
+                    <span class="songlistplay"><span class="timestamp">05:30</span><i class="fa-solid songplayitem fa-1x fa-circle-play"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="spotifyimage">
+            <img src="spotify2.png" alt="">
+        </div>
+    </div>
+    <hr>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" value="0" min="0" max="100" >
+        <div class="icons">
+            <!-- fontaweasome icons -->
+            <i class="fa-solid fa-3x fa-backward"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="play"></i>
+            <i class="fa-solid fa-3x fa-forward"></i>
+        </div>
+        <div class="playing">
+            <iframe src="https://giphy.com/embed/3osxY4Ll9eqJoY1N9m"  id="gif"  width="50" height="50" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p id="songplayingname"></p>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/38607efb72.js" crossorigin="anonymous"></script>
+    <script src="spotifyjs.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Balsamiq+Sans&family=Lato&family=Mingzat&family=Open+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(30 ,215, 96);
+    overflow-y: ;
+}
+nav{
+    background-color: black;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 59px;
+    
+
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0px 10px;
+    font-family: 'Mingzat', sans-serif;
+    
+}
+nav ul .spot{
+    padding: 0px 39px 0px 0px;
+    font-family : 'Mingzat', sans-serif;
+}
+
+.logo{
+    
+    width: 44px;
+    display: flex;
+    align-items: center;
+}
+.container{
+    display: flex;
+    height: 64.9vh;
+    background-color: black;
+    color: white;
+    font-family: 'Mingzat', sans-serif;
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    padding: 31px;
+    border-radius:12px ;
+    /* overflow-y: hidden; */
+}
+#myprogressbar{
+    width: 80vw;
+}
+.bottom{
+    background-color: black;
+    position: sticky;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(30 ,215, 96);
+    flex-direction: column;
+    /* bottom: 10px; */
+    /* top:px; */
+}
+.bottom .icons i{
+    margin: 0px 30px;
+    cursor: pointer;
+}
+.songitem{
+    height: 50px;
+    width: 80%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+    align-items: center;
+    border-radius: 15px;
+}
+.timestamp{
+    margin: 0px 23px;
+}
+.songlistplay i {
+    cursor: pointer;
+}
+.spotifyimage{
+    display: flex;
+    align-items: center;
+}
+.playing{
+    position: absolute;
+    left: 6vw;
+    font-family : 'Mingzat', sans-serif;
+}
+.playing iframe{
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+#myprogressbar{
+    cursor: pointer;
+}
+#songplayingname{
+    font-size: 10px;
+    font-family: cursive;
+    position: absolute;
+    bottom: 10px;
+    left: 55px;
+    width: 100px;
+
+}
